@@ -3,7 +3,7 @@ from triangle import Triangle, TriangleType
 
 class TestTriangle(unittest.TestCase):
 
-    def setUp(self):
+    def setooUp(self):
         """Setup dataset fixtures for testing."""
         # Valid Triangles: (a, b, c, expected_type, expected_area)
         self.valid_triangles = [
