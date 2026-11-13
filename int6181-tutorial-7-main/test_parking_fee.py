@@ -9,7 +9,7 @@ class TestParkingFeeCalculator(unittest.TestCase):
         self.calculator = ParkingFeeCalculator()
 
         # Valid parking hours and expected fees: (hours, expected_fee)
-        self.valid_fees = [
+        self.val_fees = [
             (1, 0.0),       # First hour free
             (1.5, 10.0),    # Partial hour rounded up
             (2, 10.0),      # One billable hour
